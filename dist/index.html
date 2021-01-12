@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>To-Do App</title>
+  <meta name="Todo List" content="Productivity">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="bg-focus"></div>
+
+    <header>
+      <div class="logo">
+        <h1>To-Do</h1>
+        <div class="logo-svg"></div>
+      </div>
+    </header>
+    
+    <div id="main-ctn">
+      <div class="list-folders-ctn">
+        <div class="lists-add-ctn">
+          <h1>My Lists</h1>
+          <button class="lists-add-btn" type="button">
+            <div class="add-svg-lists"></div>
+          </button>
+        </div>
+        <div id="todo-lists"></div>
+      </div>
+
+      <div class="todo-card-ctn">
+
+        <div class="todo-add-ctn">
+          <h1>To-Do's</h1>
+          <button class="add-btn" type="button">
+            <div class="add-svg"></div>
+          </button>
+        </div>
+
+        <div class="todo-border"></div>
+
+        <ul id="main-todo-ctn">
+        </ul>
+
+      </div>
+    </div>
+
+    <footer>
+        <p>Created by</p>
+        <a href="https://github.com/Gkuzin13">
+          <div class="git-logo"></div>
+        </a>  
+    </footer>
+  
+  <script src="main.js"></script>
+</body>
+</html>
